@@ -13,3 +13,5 @@
 .section-heading{gap:clamp(24px,3vw,40px)}.section-heading>p{margin:0}
 @media(max-width:900px){.section-heading{gap:24px}}
 .flow-icon{margin-bottom:18px}
+.pilot-metrics{align-items:stretch}.pilot-metrics article{display:grid;grid-template-rows:16px 32px auto;align-content:start;row-gap:12px}.pilot-metrics strong{margin:0;line-height:32px}.pilot-metrics p{margin:0;line-height:1.45}
+@media(max-width:560px){.pilot-metrics article,.pilot-metrics article+article{grid-template-rows:16px 32px auto}}
