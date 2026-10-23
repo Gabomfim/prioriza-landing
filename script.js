@@ -67,7 +67,7 @@ form.addEventListener('submit', async event => {
     status.classList.add('error');
   } finally {
     button.disabled = false;
-    button.innerHTML = 'Quero participar do piloto <span aria-hidden="true">↗</span>';
+    button.innerHTML = 'Quero participar do piloto <svg class="arrow-icon" aria-hidden="true"><use href="#icon-up-right"/></svg>';
   }
 });
 
